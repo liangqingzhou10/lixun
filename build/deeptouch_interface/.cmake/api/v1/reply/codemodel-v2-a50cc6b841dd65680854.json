@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-752d262e70f726f4b9b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "deeptouch_interface__py",
+					"jsonFile" : "directory-deeptouch_interface__py-3fd91f0524e45f750893.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/deeptouch/workspace/lixun/build/deeptouch_interface/deeptouch_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "deeptouch_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_deeptouch_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_deeptouch_interface_egg-1d8a2256e971895c4af7.json",
+					"name" : "ament_cmake_python_build_deeptouch_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_deeptouch_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_deeptouch_interface-28ca5c324eee284c5b9e.json",
+					"name" : "ament_cmake_python_copy_deeptouch_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface-209268c6d38f7136a7d1.json",
+					"name" : "deeptouch_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__cpp-8d5da8de7fa06808c776.json",
+					"name" : "deeptouch_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "deeptouch_interface__py::@23ae92ad17d421ffb7e3",
+					"jsonFile" : "target-deeptouch_interface__py-804a1b701fda55f709a3.json",
+					"name" : "deeptouch_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_generator_c-b2c11976c94fc83af027.json",
+					"name" : "deeptouch_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_generator_py-c32ffe18c9a42f7b135e.json",
+					"name" : "deeptouch_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_typesupport_c-62087e096b79fa672ae2.json",
+					"name" : "deeptouch_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_typesupport_c__pyext-b18199af4f2ee4142b16.json",
+					"name" : "deeptouch_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_typesupport_cpp-0f2903e0002697b810e8.json",
+					"name" : "deeptouch_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_typesupport_fastrtps_c-68162d58eea9775ff323.json",
+					"name" : "deeptouch_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_typesupport_fastrtps_c__pyext-bd97bac31b59d1032583.json",
+					"name" : "deeptouch_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_typesupport_fastrtps_cpp-1f8107b7d3576d276ffb.json",
+					"name" : "deeptouch_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_typesupport_introspection_c-f3aaab127caa0530e686.json",
+					"name" : "deeptouch_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_typesupport_introspection_c__pyext-00221480f530a623e983.json",
+					"name" : "deeptouch_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface__rosidl_typesupport_introspection_cpp-f9c3ddefa9e7ea2fcbaf.json",
+					"name" : "deeptouch_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_interface_uninstall-aad0bff552234ac5447f.json",
+					"name" : "deeptouch_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-02c48c87c6e5a3af5e5d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/deeptouch/workspace/lixun/build/deeptouch_interface",
+		"source" : "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

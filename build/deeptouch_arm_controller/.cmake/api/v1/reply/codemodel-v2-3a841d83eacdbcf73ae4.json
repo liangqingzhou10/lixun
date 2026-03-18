@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-48660765039656ca7059.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "deeptouch_arm_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_controller_node-3189fefb0841536a675f.json",
+					"name" : "arm_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deeptouch_arm_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deeptouch_arm_controller_uninstall-bfb2551d3d89785a9b97.json",
+					"name" : "deeptouch_arm_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fbdec9e229953b889d79.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/deeptouch/workspace/lixun/build/deeptouch_arm_controller",
+		"source" : "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_arm_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

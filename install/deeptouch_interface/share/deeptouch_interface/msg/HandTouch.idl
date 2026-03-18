@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deeptouch_interface/msg/HandTouch.msg
+// generated code does not contain a copyright notice
+
+
+module deeptouch_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "手柄状态消息定义" "\n"
+      "deeptouch_interface/HandTouch.msg")
+    struct HandTouch {
+      @verbatim (language="comment", text=
+        "按键状态 (0或1)" "\n"
+        "左手：X按钮，右手：A按钮")
+      uint8 one;
+
+      @verbatim (language="comment", text=
+        "左手：Y按钮，右手：B按钮")
+      uint8 two;
+
+      @verbatim (language="comment", text=
+        "预留按键3")
+      uint8 three;
+
+      @verbatim (language="comment", text=
+        "预留按键4")
+      uint8 four;
+
+      @verbatim (language="comment", text=
+        "Menu按钮")
+      uint8 menu;
+
+      @verbatim (language="comment", text=
+        "摇杆按下")
+      uint8 primary_thumb;
+
+      @verbatim (language="comment", text=
+        "模拟量输入 (0.0-1.0)" "\n"
+        "握持扳机值")
+      float hand_trigger;
+
+      @verbatim (language="comment", text=
+        "食指扳机值")
+      float index_trigger;
+
+      @verbatim (language="comment", text=
+        "摇杆输入 (-1.0到1.0)" "\n"
+        "摇杆X轴值")
+      float thumbstick_x;
+
+      @verbatim (language="comment", text=
+        "摇杆Y轴值")
+      float thumbstick_y;
+    };
+  };
+};

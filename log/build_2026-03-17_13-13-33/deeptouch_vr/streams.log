@@ -1,0 +1,49 @@
+[0.519s] Invoking command in '/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr': AMENT_PREFIX_PATH=/home/deeptouch/workspace/lixun/install/deeptouch_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deeptouch/workspace/lixun/install/deeptouch_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deeptouch/workspace/lixun/build/deeptouch_vr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages:/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/deeptouch_vr build --build-base /home/deeptouch/workspace/lixun/build/deeptouch_vr/build install --record /home/deeptouch/workspace/lixun/build/deeptouch_vr/install.log --single-version-externally-managed install_data
+[0.708s] running egg_info
+[0.709s] creating ../../../../build/deeptouch_vr/deeptouch_vr.egg-info
+[0.709s] writing ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/PKG-INFO
+[0.710s] writing dependency_links to ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/dependency_links.txt
+[0.710s] writing entry points to ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/entry_points.txt
+[0.710s] writing requirements to ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/requires.txt
+[0.710s] writing top-level names to ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/top_level.txt
+[0.710s] writing manifest file '../../../../build/deeptouch_vr/deeptouch_vr.egg-info/SOURCES.txt'
+[0.711s] reading manifest file '../../../../build/deeptouch_vr/deeptouch_vr.egg-info/SOURCES.txt'
+[0.712s] writing manifest file '../../../../build/deeptouch_vr/deeptouch_vr.egg-info/SOURCES.txt'
+[0.713s] running build
+[0.713s] running build_py
+[0.713s] creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build
+[0.713s] creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib
+[0.713s] creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+[0.713s] copying deeptouch_vr/tele_opt_device_publish.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+[0.713s] copying deeptouch_vr/tele_opt_record_data.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+[0.713s] copying deeptouch_vr/tele_opt_cmd_publish.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+[0.714s] copying deeptouch_vr/__init__.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+[0.715s] creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/utils
+[0.715s] copying deeptouch_vr/utils/filter.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/utils
+[0.715s] copying deeptouch_vr/utils/__init__.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/utils
+[0.716s] creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.716s] copying deeptouch_vr/record/robot_controller.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.716s] copying deeptouch_vr/record/camera_manager.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.716s] copying deeptouch_vr/record/test.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.716s] copying deeptouch_vr/record/teleopt_subscriber.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.716s] copying deeptouch_vr/record/lerobot_formatter.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.716s] copying deeptouch_vr/record/simple_fix(fix_framejumpping).py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.716s] copying deeptouch_vr/record/__init__.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.716s] copying deeptouch_vr/record/simple_fix(fix_framejumping).py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.719s] copying deeptouch_vr/record/text_xense.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.719s] copying deeptouch_vr/record/data_validator.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.719s] copying deeptouch_vr/record/data_record.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+[0.719s] running install
+[0.719s] running install_lib
+[0.719s] copying /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/utils/__init__.py -> /home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages/deeptouch_vr/utils
+[0.719s] byte-compiling /home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages/deeptouch_vr/utils/__init__.py to __init__.cpython-310.pyc
+[0.720s] running install_data
+[0.720s] running install_egg_info
+[0.721s] removing '/home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages/deeptouch_vr-0.0.1-py3.10.egg-info' (and everything under it)
+[0.721s] Copying ../../../../build/deeptouch_vr/deeptouch_vr.egg-info to /home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages/deeptouch_vr-0.0.1-py3.10.egg-info
+[0.722s] running install_scripts
+[0.743s] Installing tele_opt_cmd script to /home/deeptouch/workspace/lixun/install/deeptouch_vr/bin
+[0.743s] Installing tele_opt_device script to /home/deeptouch/workspace/lixun/install/deeptouch_vr/bin
+[0.743s] Installing tele_opt_record script to /home/deeptouch/workspace/lixun/install/deeptouch_vr/bin
+[0.743s] writing list of installed files to '/home/deeptouch/workspace/lixun/build/deeptouch_vr/install.log'
+[0.774s] Invoked command in '/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr' returned '0': AMENT_PREFIX_PATH=/home/deeptouch/workspace/lixun/install/deeptouch_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deeptouch/workspace/lixun/install/deeptouch_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deeptouch/workspace/lixun/build/deeptouch_vr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages:/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/deeptouch_vr build --build-base /home/deeptouch/workspace/lixun/build/deeptouch_vr/build install --record /home/deeptouch/workspace/lixun/build/deeptouch_vr/install.log --single-version-externally-managed install_data

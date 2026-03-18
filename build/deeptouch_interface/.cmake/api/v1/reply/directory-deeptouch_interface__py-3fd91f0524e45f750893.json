@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "deeptouch_interface__py",
+		"source" : "/home/deeptouch/workspace/lixun/build/deeptouch_interface/deeptouch_interface__py"
+	}
+}

@@ -1,0 +1,41 @@
+[INFO] [launch]: All log files can be found below /home/deeptouch/.ros/log/2026-03-18-14-53-45-637388-deeptouch-185916
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [arm_controller_node-1]: process started with pid [185936]
+[INFO] [arm_controller_node-2]: process started with pid [185938]
+[INFO] [tele_opt_hand_bridge-3]: process started with pid [185940]
+[arm_controller_node-2] [INFO] [1773816825.774584343] [right_arm_controller_node]: Robot handle created: id=1
+[arm_controller_node-1] [INFO] [1773816825.775436854] [left_arm_controller_node]: Robot handle created: id=1
+[arm_controller_node-1] [INFO] [1773816826.309856800] [left_arm_controller_node]: RM API version: 1.1.1
+[arm_controller_node-1] [INFO] [1773816826.311393092] [left_arm_controller_node]: ArmControllerNode started. node=/left_arm_controller_node ip=192.168.0.18 port=8080 topic=/teleoperation/left_cmd tool_frame=gripper gripper_force=350
+[arm_controller_node-2] [INFO] [1773816826.322297560] [right_arm_controller_node]: RM API version: 1.1.1
+[arm_controller_node-2] [INFO] [1773816826.324415547] [right_arm_controller_node]: ArmControllerNode started. node=/right_arm_controller_node ip=192.168.0.19 port=8080 topic=/teleoperation/right_cmd tool_frame=gripper gripper_force=350
+[tele_opt_hand_bridge-3] [INFO] [1773816826.606786697] [dex_hand_bridge_node]: left dex hand connected: /dev/dexhand_left
+[tele_opt_hand_bridge-3] [INFO] [1773816827.108075255] [dex_hand_bridge_node]: right dex hand connected: /dev/dexhand_right
+[tele_opt_hand_bridge-3] [INFO] [1773816827.171664130] [dex_hand_bridge_node]: TeleOptHandBridge started. left=/dev/dexhand_left, right=/dev/dexhand_right, left_backup=/dev/serial/by-path/pci-0000:00:14.0-usb-0:4.1:1.0-port0, right_backup=/dev/serial/by-path/pci-0000:00:14.0-usb-0:1:1.0-port0, close=[75, 70, 60, 0, 0, 0], open=[0, 0, 0, 0, 0, 0]
+[arm_controller_node-1] [INFO] [1773818273.657235362] [rclcpp]: signal_handler(signum=2)
+[arm_controller_node-2] [INFO] [1773818273.657235142] [rclcpp]: signal_handler(signum=2)
+[arm_controller_node-1] [INFO] [1773818273.658260514] [left_arm_controller_node]: ArmControllerNode shutdown
+[arm_controller_node-2] [INFO] [1773818273.658526382] [right_arm_controller_node]: ArmControllerNode shutdown
+[tele_opt_hand_bridge-3] [INFO] [1773818273.658531592] [dex_hand_bridge_node]: left dex hand disconnected
+[tele_opt_hand_bridge-3] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[tele_opt_hand_bridge-3] [INFO] [1773818273.659430442] [dex_hand_bridge_node]: right dex hand disconnected
+[tele_opt_hand_bridge-3] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[tele_opt_hand_bridge-3] Traceback (most recent call last):
+[tele_opt_hand_bridge-3]   File "/home/deeptouch/workspace/lixun/lixun/deeptouch/install/deeptouch_vr/lib/deeptouch_vr/tele_opt_hand_bridge", line 33, in <module>
+[tele_opt_hand_bridge-3]     sys.exit(load_entry_point('deeptouch-vr==0.0.1', 'console_scripts', 'tele_opt_hand_bridge')())
+[tele_opt_hand_bridge-3]   File "/home/deeptouch/workspace/lixun/lixun/deeptouch/install/deeptouch_vr/lib/python3.10/site-packages/deeptouch_vr/tele_opt_hand_bridge.py", line 207, in main
+[tele_opt_hand_bridge-3]     rclpy.spin(node)
+[tele_opt_hand_bridge-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[tele_opt_hand_bridge-3]     executor.spin_once()
+[tele_opt_hand_bridge-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 751, in spin_once
+[tele_opt_hand_bridge-3]     self._spin_once_impl(timeout_sec)
+[tele_opt_hand_bridge-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 740, in _spin_once_impl
+[tele_opt_hand_bridge-3]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[tele_opt_hand_bridge-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 723, in wait_for_ready_callbacks
+[tele_opt_hand_bridge-3]     return next(self._cb_iter)
+[tele_opt_hand_bridge-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 624, in _wait_for_ready_callbacks
+[tele_opt_hand_bridge-3]     raise ExternalShutdownException()
+[tele_opt_hand_bridge-3] rclpy.executors.ExternalShutdownException
+[INFO] [arm_controller_node-2]: process has finished cleanly [pid 185938]
+[INFO] [arm_controller_node-1]: process has finished cleanly [pid 185936]
+[ERROR] [tele_opt_hand_bridge-3]: process has died [pid 185940, exit code 1, cmd '/home/deeptouch/workspace/lixun/lixun/deeptouch/install/deeptouch_vr/lib/deeptouch_vr/tele_opt_hand_bridge --ros-args -r __node:=dex_hand_bridge_node --params-file /tmp/launch_params_5q3muf14'].

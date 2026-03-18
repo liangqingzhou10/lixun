@@ -1,0 +1,5 @@
+[console_scripts]
+tele_opt_cmd = deeptouch_vr.tele_opt_cmd_publish:main
+tele_opt_device = deeptouch_vr.tele_opt_device_publish:main
+tele_opt_record = deeptouch_vr.tele_opt_record_data:main
+

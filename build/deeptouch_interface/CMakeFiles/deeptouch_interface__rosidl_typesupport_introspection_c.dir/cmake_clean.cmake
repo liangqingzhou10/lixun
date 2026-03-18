@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/hand_touch__type_support.c.o"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/hand_touch__type_support.c.o.d"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.c.o"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.c.o.d"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_device__type_support.c.o"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_device__type_support.c.o.d"
+  "libdeeptouch_interface__rosidl_typesupport_introspection_c.pdb"
+  "libdeeptouch_interface__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/hand_touch__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/hand_touch__type_support.c"
+  "rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_cmd__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.c"
+  "rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_device__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_device__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

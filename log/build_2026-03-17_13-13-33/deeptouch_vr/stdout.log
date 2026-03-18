@@ -1,0 +1,47 @@
+running egg_info
+creating ../../../../build/deeptouch_vr/deeptouch_vr.egg-info
+writing ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/dependency_links.txt
+writing entry points to ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/entry_points.txt
+writing requirements to ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/requires.txt
+writing top-level names to ../../../../build/deeptouch_vr/deeptouch_vr.egg-info/top_level.txt
+writing manifest file '../../../../build/deeptouch_vr/deeptouch_vr.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/deeptouch_vr/deeptouch_vr.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/deeptouch_vr/deeptouch_vr.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build
+creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib
+creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+copying deeptouch_vr/tele_opt_device_publish.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+copying deeptouch_vr/tele_opt_record_data.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+copying deeptouch_vr/tele_opt_cmd_publish.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+copying deeptouch_vr/__init__.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr
+creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/utils
+copying deeptouch_vr/utils/filter.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/utils
+copying deeptouch_vr/utils/__init__.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/utils
+creating /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/robot_controller.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/camera_manager.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/test.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/teleopt_subscriber.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/lerobot_formatter.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/simple_fix(fix_framejumpping).py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/__init__.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/simple_fix(fix_framejumping).py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/text_xense.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/data_validator.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+copying deeptouch_vr/record/data_record.py -> /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/record
+running install
+running install_lib
+copying /home/deeptouch/workspace/lixun/build/deeptouch_vr/build/lib/deeptouch_vr/utils/__init__.py -> /home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages/deeptouch_vr/utils
+byte-compiling /home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages/deeptouch_vr/utils/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages/deeptouch_vr-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/deeptouch_vr/deeptouch_vr.egg-info to /home/deeptouch/workspace/lixun/install/deeptouch_vr/lib/python3.10/site-packages/deeptouch_vr-0.0.1-py3.10.egg-info
+running install_scripts
+Installing tele_opt_cmd script to /home/deeptouch/workspace/lixun/install/deeptouch_vr/bin
+Installing tele_opt_device script to /home/deeptouch/workspace/lixun/install/deeptouch_vr/bin
+Installing tele_opt_record script to /home/deeptouch/workspace/lixun/install/deeptouch_vr/bin
+writing list of installed files to '/home/deeptouch/workspace/lixun/build/deeptouch_vr/install.log'

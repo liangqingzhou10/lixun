@@ -1,0 +1,12 @@
+source;share/deeptouch_vr/hook/path.ps1
+source;share/deeptouch_vr/hook/path.dsv
+source;share/deeptouch_vr/hook/path.sh
+source;share/deeptouch_vr/hook/pythonpath.ps1
+source;share/deeptouch_vr/hook/pythonpath.dsv
+source;share/deeptouch_vr/hook/pythonpath.sh
+source;share/deeptouch_vr/hook/pythonscriptspath.ps1
+source;share/deeptouch_vr/hook/pythonscriptspath.dsv
+source;share/deeptouch_vr/hook/pythonscriptspath.sh
+source;share/deeptouch_vr/hook/ament_prefix_path.ps1
+source;share/deeptouch_vr/hook/ament_prefix_path.dsv
+source;share/deeptouch_vr/hook/ament_prefix_path.sh

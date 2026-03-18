@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deeptouch_interface/msg/TeleOptCmd.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module deeptouch_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "位姿数据消息定义" "\n"
+      "deeptouch_interface/TeleOptCmd.msg")
+    struct TeleOptCmd {
+      @verbatim (language="comment", text=
+        "是否随动  true: 随动  false: 不随动")
+      boolean is_follow;
+
+      @verbatim (language="comment", text=
+        "是否校准起始位姿  true: 校准起始位姿  false: 不校准")
+      boolean is_calibrate_start_pose;
+
+      @verbatim (language="comment", text=
+        "是否绝对位姿  true: 绝对位姿  false: 相对位姿")
+      boolean is_absolute_pose;
+
+      @verbatim (language="comment", text=
+        "是否回到初始位置")
+      boolean is_initial_pose;
+
+      @verbatim (language="comment", text=
+        "手部位姿")
+      geometry_msgs::msg::Pose hand_pose;
+
+      @verbatim (language="comment", text=
+        "夹爪指令" "\n"
+        " Gripper 0: open; 1: close")
+      boolean gripper_cmd;
+
+      @verbatim (language="comment", text=
+        "开始记录数据")
+      string record_state;
+
+      @verbatim (language="comment", text=
+        "尺度（手部位姿缩放）")
+      float scale;
+
+      @verbatim (language="comment", text=
+        "摇杆按下")
+      uint8 primary_thumb;
+
+      @verbatim (language="comment", text=
+        "本次录制的评分（仅 HIL-SERL 使用）：" "\n"
+        " 1 = 成功, 255 = 失败, 0 = 未标记")
+      uint8 rating;
+    };
+  };
+};

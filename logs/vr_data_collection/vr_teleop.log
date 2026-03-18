@@ -1,0 +1,70 @@
+[INFO] [launch]: All log files can be found below /home/deeptouch/.ros/log/2026-03-18-14-53-43-627718-deeptouch-185824
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [python3-1]: process started with pid [185844]
+[INFO] [python3-2]: process started with pid [185846]
+[python3-1] /home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/tele_opt_cmd_publish.py:37: UserWarning: A NumPy version >=1.22.4 and <2.3.0 is required for this version of SciPy (detected version 1.21.5)
+[python3-1]   from scipy.spatial.transform import Rotation as R
+[python3-2] /home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/utils/filter.py:3: UserWarning: A NumPy version >=1.22.4 and <2.3.0 is required for this version of SciPy (detected version 1.21.5)
+[python3-2]   from scipy.spatial.transform import Rotation as R
+[python3-1] [INFO] [1773816823.954454568] [teleopt_delta_bridge]: TeleOptDeltaBridge started with recording control (timeout: 10.0s)
+[python3-2] [INFO] [1773816823.999846851] [vr_ros_bridge]: VR bridge 0.0.0.0:9001 pub 120.0Hz; TF: vr_world->(vr_left_hand,vr_right_hand,vr_head); PoseQoS=reliable; QuatFilter=slerp_ema, cutoff=5.0Hz; publish_world_pose=True
+[python3-1] Traceback (most recent call last):
+[python3-1]   File "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/tele_opt_cmd_publish.py", line 427, in main
+[python3-1]     rclpy.spin(node)
+[python3-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[python3-1]     executor.spin_once()
+[python3-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 751, in spin_once
+[python3-1]     self._spin_once_impl(timeout_sec)
+[python3-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 740, in _spin_once_impl
+[python3-1]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[python3-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 723, in wait_for_ready_callbacks
+[python3-1]     return next(self._cb_iter)
+[python3-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 624, in _wait_for_ready_callbacks
+[python3-1]     raise ExternalShutdownException()
+[python3-1] rclpy.executors.ExternalShutdownException
+[python3-1] 
+[python3-1] During handling of the above exception, another exception occurred:
+[python3-1] 
+[python3-1] Traceback (most recent call last):
+[python3-1]   File "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/tele_opt_cmd_publish.py", line 436, in <module>
+[python3-1]     main()
+[python3-1]   File "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/tele_opt_cmd_publish.py", line 432, in main
+[python3-1]     rclpy.shutdown()
+[python3-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[python3-1]     _shutdown(context=context)
+[python3-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[python3-1]     return context.shutdown()
+[python3-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[python3-1]     self.__context.shutdown()
+[python3-1] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[python3-2] Traceback (most recent call last):
+[python3-2]   File "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/tele_opt_device_publish.py", line 521, in main
+[python3-2]     rclpy.spin(node)
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[python3-2]     executor.spin_once()
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 751, in spin_once
+[python3-2]     self._spin_once_impl(timeout_sec)
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 740, in _spin_once_impl
+[python3-2]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 723, in wait_for_ready_callbacks
+[python3-2]     return next(self._cb_iter)
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 624, in _wait_for_ready_callbacks
+[python3-2]     raise ExternalShutdownException()
+[python3-2] rclpy.executors.ExternalShutdownException
+[python3-2] 
+[python3-2] During handling of the above exception, another exception occurred:
+[python3-2] 
+[python3-2] Traceback (most recent call last):
+[python3-2]   File "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/tele_opt_device_publish.py", line 530, in <module>
+[python3-2]     main()
+[python3-2]   File "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/tele_opt_device_publish.py", line 526, in main
+[python3-2]     rclpy.shutdown()
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[python3-2]     _shutdown(context=context)
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[python3-2]     return context.shutdown()
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[python3-2]     self.__context.shutdown()
+[python3-2] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[ERROR] [python3-1]: process has died [pid 185844, exit code 1, cmd 'python3 /home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/tele_opt_cmd_publish.py'].
+[ERROR] [python3-2]: process has died [pid 185846, exit code 1, cmd 'python3 /home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_vr/deeptouch_vr/tele_opt_device_publish.py'].

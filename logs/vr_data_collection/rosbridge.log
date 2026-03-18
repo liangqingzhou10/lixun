@@ -1,0 +1,72 @@
+[INFO] [launch]: All log files can be found below /home/deeptouch/.ros/log/2026-03-18-14-53-47-643280-deeptouch-185980
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rosbridge_websocket-1]: process started with pid [186000]
+[INFO] [rosapi_node-2]: process started with pid [186002]
+[rosbridge_websocket-1] [WARN] [1773816828.053996194] [rosbridge_websocket]: The 'default_call_service_timeout' parameter is currently set to 0.0, which means service calls will block indefinitely if no response is received. Please note that in the Jazzy and later releases, the default value for this parameter will be updated to 5.0 seconds.
+[rosbridge_websocket-1] [WARN] [1773816828.054287898] [rosbridge_websocket]: The 'call_services_in_new_thread' parameter is currently set to False, which means service calls will block the main thread. Please note that in the Jazzy and later releases, the default value for this parameter will be updated to True.
+[rosbridge_websocket-1] [WARN] [1773816828.054498577] [rosbridge_websocket]: The 'send_action_goals_in_new_thread' parameter is currently set to False, which means sending action goals will block the main thread. Please note that in the Jazzy and later releases, the default value for this parameter will be updated to True.
+[rosbridge_websocket-1] [INFO] [1773816828.056107729] [rosbridge_websocket]: Rosbridge WebSocket server started on port 9090
+[rosbridge_websocket-1] [INFO] [1773816838.453009130] [rosbridge_websocket]: Calling services in existing thread
+[rosbridge_websocket-1] [INFO] [1773816838.453407995] [rosbridge_websocket]: Sending action goals in existing thread
+[rosbridge_websocket-1] [INFO] [1773816838.454180319] [rosbridge_websocket]: Client connected. 1 clients total.
+[rosbridge_websocket-1] [INFO] [1773816838.482495843] [rosbridge_websocket]: [Client c0ddf39c-ff7d-4f70-9684-91ca5bfd6a77] Subscribed to /teleoperation/left_cmd
+[rosbridge_websocket-1] [INFO] [1773816838.483649298] [rosbridge_websocket]: [Client c0ddf39c-ff7d-4f70-9684-91ca5bfd6a77] Subscribed to /teleoperation/right_cmd
+[rosbridge_websocket-1] ERROR:tornado.application:Exception in callback <function main.<locals>.spin_ros at 0x79925faab2e0>
+[rosbridge_websocket-1] Traceback (most recent call last):
+[rosbridge_websocket-1]   File "/usr/lib/python3/dist-packages/tornado/ioloop.py", line 905, in _run
+[rosbridge_websocket-1]     return self.callback()
+[rosbridge_websocket-1]   File "/opt/ros/humble/lib/rosbridge_server/rosbridge_websocket", line 270, in spin_ros
+[rosbridge_websocket-1]     executor.spin_once(timeout_sec=0.01)
+[rosbridge_websocket-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 751, in spin_once
+[rosbridge_websocket-1]     self._spin_once_impl(timeout_sec)
+[rosbridge_websocket-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 740, in _spin_once_impl
+[rosbridge_websocket-1]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[rosbridge_websocket-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 723, in wait_for_ready_callbacks
+[rosbridge_websocket-1]     return next(self._cb_iter)
+[rosbridge_websocket-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 624, in _wait_for_ready_callbacks
+[rosbridge_websocket-1]     raise ExternalShutdownException()
+[rosbridge_websocket-1] rclpy.executors.ExternalShutdownException
+[rosbridge_websocket-1] registered capabilities (classes):
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.advertise.Advertise'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.publish.Publish'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.subscribe.Subscribe'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.defragmentation.Defragment'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.advertise_service.AdvertiseService'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.call_service.CallService'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.service_response.ServiceResponse'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.unadvertise_service.UnadvertiseService'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.advertise_action.AdvertiseAction'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.action_feedback.ActionFeedback'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.action_result.ActionResult'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.send_action_goal.SendActionGoal'>
+[rosbridge_websocket-1]  - <class 'rosbridge_library.capabilities.unadvertise_action.UnadvertiseAction'>
+[rosapi_node-2] Traceback (most recent call last):
+[rosapi_node-2]   File "/opt/ros/humble/lib/rosapi/rosapi_node", line 550, in <module>
+[rosapi_node-2]     main()
+[rosapi_node-2]   File "/opt/ros/humble/lib/rosapi/rosapi_node", line 542, in main
+[rosapi_node-2]     rclpy.spin(node)
+[rosapi_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[rosapi_node-2]     executor.spin_once()
+[rosapi_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 751, in spin_once
+[rosapi_node-2]     self._spin_once_impl(timeout_sec)
+[rosapi_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 740, in _spin_once_impl
+[rosapi_node-2]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[rosapi_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 723, in wait_for_ready_callbacks
+[rosapi_node-2]     return next(self._cb_iter)
+[rosapi_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 624, in _wait_for_ready_callbacks
+[rosapi_node-2]     raise ExternalShutdownException()
+[rosapi_node-2] rclpy.executors.ExternalShutdownException
+[rosbridge_websocket-1] Traceback (most recent call last):
+[rosbridge_websocket-1]   File "/opt/ros/humble/lib/rosbridge_server/rosbridge_websocket", line 286, in <module>
+[rosbridge_websocket-1]     main()
+[rosbridge_websocket-1]   File "/opt/ros/humble/lib/rosbridge_server/rosbridge_websocket", line 277, in main
+[rosbridge_websocket-1]     rclpy.shutdown()
+[rosbridge_websocket-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[rosbridge_websocket-1]     _shutdown(context=context)
+[rosbridge_websocket-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[rosbridge_websocket-1]     return context.shutdown()
+[rosbridge_websocket-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[rosbridge_websocket-1]     self.__context.shutdown()
+[rosbridge_websocket-1] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[ERROR] [rosapi_node-2]: process has died [pid 186002, exit code 1, cmd '/opt/ros/humble/lib/rosapi/rosapi_node --ros-args -r __node:=rosapi --params-file /tmp/launch_params_wakoso8w --params-file /tmp/launch_params_s0tatf4v --params-file /tmp/launch_params_jtpssmez --params-file /tmp/launch_params_38ypn60a'].
+[ERROR] [rosbridge_websocket-1]: process has died [pid 186000, exit code 1, cmd '/opt/ros/humble/lib/rosbridge_server/rosbridge_websocket --ros-args -r __node:=rosbridge_websocket --params-file /tmp/launch_params_d_afs9sp --params-file /tmp/launch_params_qe5ym8is --params-file /tmp/launch_params_nfsnjile --params-file /tmp/launch_params_dj9mgwat --params-file /tmp/launch_params_ytchkw6q --params-file /tmp/launch_params_bad6_zja --params-file /tmp/launch_params_xf5be7z9 --params-file /tmp/launch_params_zowc7paa --params-file /tmp/launch_params_r7yez13n --params-file /tmp/launch_params_fjn1zm3r --params-file /tmp/launch_params_315z5o57 --params-file /tmp/launch_params_47b0xjq0 --params-file /tmp/launch_params_dztsfk19 --params-file /tmp/launch_params_4xjuydos --params-file /tmp/launch_params_lvfcfsdp --params-file /tmp/launch_params_y0xw09hp'].

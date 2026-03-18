@@ -1,0 +1,7 @@
+# DeepTouch dex hand fixed serial names
+# USB port mapping on this machine (verified by real movement test):
+# - usb-0:1   -> right hand
+# - usb-0:4.1 -> left hand
+
+SUBSYSTEM=="tty", KERNEL=="ttyUSB*", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", KERNELS=="1-1", SYMLINK+="dexhand_right"
+SUBSYSTEM=="tty", KERNEL=="ttyUSB*", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", KERNELS=="1-4.1", SYMLINK+="dexhand_left"

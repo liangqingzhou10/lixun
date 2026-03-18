@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_arm_controller/include":
+  No such file or directory.
+
+[0m

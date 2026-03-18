@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/hand_touch__type_support.cpp.o"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/hand_touch__type_support.cpp.o.d"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.cpp.o"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.cpp.o.d"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_device__type_support.cpp.o"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_device__type_support.cpp.o.d"
+  "libdeeptouch_interface__rosidl_typesupport_introspection_cpp.pdb"
+  "libdeeptouch_interface__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/hand_touch__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/hand_touch__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_cmd__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_device__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_device__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

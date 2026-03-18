@@ -1,0 +1,290 @@
+[0.015s] Invoking command in '/home/deeptouch/workspace/lixun/build/deeptouch_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deeptouch/deeptouch/install/mnet_client:/opt/ros/humble /usr/bin/cmake /home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_interface -DCMAKE_INSTALL_PREFIX=/home/deeptouch/workspace/lixun/install/deeptouch_interface
+[0.267s] -- The C compiler identification is GNU 11.4.0
+[0.396s] -- The CXX compiler identification is GNU 11.4.0
+[0.408s] -- Detecting C compiler ABI info
+[0.478s] -- Detecting C compiler ABI info - done
+[0.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.487s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.503s] -- Detecting CXX compiler ABI info
+[0.568s] -- Detecting CXX compiler ABI info - done
+[0.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.576s] -- Detecting CXX compile features
+[0.576s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.720s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.810s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.853s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.859s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.870s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.886s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.903s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.934s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.951s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.185s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.644s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.646s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.673s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.674s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.674s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.674s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.691s] -- Found PythonExtra: .so  
+[1.738s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.769s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.771s] -- Added test 'lint_cmake' to check CMake code style
+[1.772s] -- Added test 'xmllint' to check XML markup files
+[1.774s] -- Configuring done
+[1.801s] -- Generating done
+[1.809s] -- Build files have been written to: /home/deeptouch/workspace/lixun/build/deeptouch_interface
+[1.816s] Invoked command in '/home/deeptouch/workspace/lixun/build/deeptouch_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deeptouch/deeptouch/install/mnet_client:/opt/ros/humble /usr/bin/cmake /home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_interface -DCMAKE_INSTALL_PREFIX=/home/deeptouch/workspace/lixun/install/deeptouch_interface
+[1.817s] Invoking command in '/home/deeptouch/workspace/lixun/build/deeptouch_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deeptouch/deeptouch/install/mnet_client:/opt/ros/humble /usr/bin/cmake --build /home/deeptouch/workspace/lixun/build/deeptouch_interface -- -j11 -l11
+[1.849s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.860s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.865s] [  4%] Built target ament_cmake_python_copy_deeptouch_interface
+[2.037s] running egg_info
+[2.038s] creating deeptouch_interface.egg-info
+[2.038s] writing deeptouch_interface.egg-info/PKG-INFO
+[2.039s] writing dependency_links to deeptouch_interface.egg-info/dependency_links.txt
+[2.039s] writing top-level names to deeptouch_interface.egg-info/top_level.txt
+[2.039s] writing manifest file 'deeptouch_interface.egg-info/SOURCES.txt'
+[2.042s] reading manifest file 'deeptouch_interface.egg-info/SOURCES.txt'
+[2.042s] writing manifest file 'deeptouch_interface.egg-info/SOURCES.txt'
+[2.063s] [  4%] Built target ament_cmake_python_build_deeptouch_interface_egg
+[2.312s] [  4%] Built target deeptouch_interface__cpp
+[2.316s] [  6%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_generator_c.dir/rosidl_generator_c/deeptouch_interface/msg/detail/hand_touch__functions.c.o[0m
+[2.317s] [  8%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_generator_c.dir/rosidl_generator_c/deeptouch_interface/msg/detail/tele_opt_device__functions.c.o[0m
+[2.319s] [ 10%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_generator_c.dir/rosidl_generator_c/deeptouch_interface/msg/detail/tele_opt_cmd__functions.c.o[0m
+[2.319s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.322s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.324s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.406s] [ 19%] [32m[1mLinking C shared library libdeeptouch_interface__rosidl_generator_c.so[0m
+[2.455s] [ 19%] Built target deeptouch_interface__rosidl_generator_c
+[2.468s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.472s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.474s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.734s] [ 27%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/deeptouch_interface/msg/hand_touch__type_support.cpp.o[0m
+[2.740s] [ 29%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/deeptouch_interface/msg/tele_opt_device__type_support.cpp.o[0m
+[2.741s] [ 31%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/deeptouch_interface/msg/tele_opt_cmd__type_support.cpp.o[0m
+[2.880s] [ 34%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/deeptouch_interface/msg/detail/dds_fastrtps/tele_opt_device__type_support.cpp.o[0m
+[2.886s] [ 36%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/deeptouch_interface/msg/detail/dds_fastrtps/hand_touch__type_support.cpp.o[0m
+[2.889s] [ 38%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/deeptouch_interface/msg/detail/dds_fastrtps/tele_opt_cmd__type_support.cpp.o[0m
+[2.998s] [ 40%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/hand_touch__type_support.cpp.o[0m
+[3.021s] [ 42%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.cpp.o[0m
+[3.025s] [ 44%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/deeptouch_interface/msg/hand_touch__type_support.cpp.o[0m
+[3.051s] [ 46%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/hand_touch__type_support_c.cpp.o[0m
+[3.079s] [ 51%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/hand_touch__type_support.c.o[0m
+[3.079s] [ 51%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/deeptouch_interface/msg/tele_opt_cmd__type_support.cpp.o[0m
+[3.140s] [ 53%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.c.o[0m
+[3.151s] [ 55%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/deeptouch_interface/msg/tele_opt_device__type_support.cpp.o[0m
+[3.194s] [ 57%] [32m[1mLinking CXX shared library libdeeptouch_interface__rosidl_typesupport_c.so[0m
+[3.225s] [ 59%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/deeptouch_interface/msg/detail/tele_opt_device__type_support.c.o[0m
+[3.234s] [ 61%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_cmd__type_support_c.cpp.o[0m
+[3.280s] [ 65%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/deeptouch_interface/msg/detail/tele_opt_device__type_support.cpp.o[0m
+[3.280s] [ 63%] [32m[1mLinking C shared library libdeeptouch_interface__rosidl_typesupport_introspection_c.so[0m
+[3.291s] [ 65%] Built target deeptouch_interface__rosidl_typesupport_c
+[3.308s] [ 68%] [32mBuilding CXX object CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_device__type_support_c.cpp.o[0m
+[3.310s] [ 70%] [32m[1mLinking CXX shared library libdeeptouch_interface__rosidl_typesupport_cpp.so[0m
+[3.340s] [ 70%] Built target deeptouch_interface__rosidl_typesupport_introspection_c
+[3.419s] [ 70%] Built target deeptouch_interface__rosidl_typesupport_cpp
+[3.541s] [ 72%] [32m[1mLinking CXX shared library libdeeptouch_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.608s] [ 72%] Built target deeptouch_interface__rosidl_typesupport_fastrtps_cpp
+[3.614s] [ 74%] [32m[1mLinking CXX shared library libdeeptouch_interface__rosidl_typesupport_fastrtps_c.so[0m
+[3.647s] [ 76%] [32m[1mLinking CXX shared library libdeeptouch_interface__rosidl_typesupport_introspection_cpp.so[0m
+[3.672s] [ 76%] Built target deeptouch_interface__rosidl_typesupport_fastrtps_c
+[3.694s] [ 76%] Built target deeptouch_interface__rosidl_typesupport_introspection_cpp
+[3.708s] [ 76%] Built target deeptouch_interface
+[3.721s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.370s] [ 78%] Built target deeptouch_interface__py
+[4.384s] [ 80%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_generator_py.dir/rosidl_generator_py/deeptouch_interface/msg/_hand_touch_s.c.o[0m
+[4.384s] [ 82%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_generator_py.dir/rosidl_generator_py/deeptouch_interface/msg/_tele_opt_cmd_s.c.o[0m
+[4.385s] [ 85%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_generator_py.dir/rosidl_generator_py/deeptouch_interface/msg/_tele_opt_device_s.c.o[0m
+[4.499s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/deeptouch_interface/libdeeptouch_interface__rosidl_generator_py.so[0m
+[4.531s] [ 87%] Built target deeptouch_interface__rosidl_generator_py
+[4.546s] [ 89%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/deeptouch_interface/_deeptouch_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[4.546s] [ 91%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/deeptouch_interface/_deeptouch_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.547s] [ 93%] [32mBuilding C object CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/deeptouch_interface/_deeptouch_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.615s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.615s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.615s] [100%] [32m[1mLinking C shared library rosidl_generator_py/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.644s] [100%] Built target deeptouch_interface__rosidl_typesupport_c__pyext
+[4.644s] [100%] Built target deeptouch_interface__rosidl_typesupport_fastrtps_c__pyext
+[4.645s] [100%] Built target deeptouch_interface__rosidl_typesupport_introspection_c__pyext
+[4.653s] Invoked command in '/home/deeptouch/workspace/lixun/build/deeptouch_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deeptouch/deeptouch/install/mnet_client:/opt/ros/humble /usr/bin/cmake --build /home/deeptouch/workspace/lixun/build/deeptouch_interface -- -j11 -l11
+[4.660s] Invoking command in '/home/deeptouch/workspace/lixun/build/deeptouch_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deeptouch/deeptouch/install/mnet_client:/opt/ros/humble /usr/bin/cmake --install /home/deeptouch/workspace/lixun/build/deeptouch_interface
+[4.666s] -- Install configuration: ""
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/ament_index/resource_index/rosidl_interfaces/deeptouch_interface
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/tele_opt_device.h
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/tele_opt_cmd.h
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__functions.c
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__type_support.h
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__functions.c
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__struct.h
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__struct.h
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__functions.h
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__functions.h
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__type_support.h
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.h
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__functions.c
+[4.667s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__functions.h
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__struct.h
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/hand_touch.h
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/rosidl_generator_c__visibility_control.h
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/environment/library_path.sh
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/environment/library_path.dsv
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_generator_c.so
+[4.668s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_generator_c.so" to ""
+[4.668s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface
+[4.668s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.668s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__rosidl_typesupport_fastrtps_c.h
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__rosidl_typesupport_fastrtps_c.h
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__rosidl_typesupport_fastrtps_c.h
+[4.668s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_fastrtps_c.so
+[4.668s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[4.669s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface
+[4.669s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/tele_opt_cmd.hpp
+[4.669s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__builder.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__type_support.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__builder.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__type_support.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__traits.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__traits.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__builder.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__struct.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__struct.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__struct.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__traits.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/tele_opt_device.hpp
+[4.669s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/hand_touch.hpp
+[4.670s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface
+[4.670s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg
+[4.670s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__rosidl_typesupport_fastrtps_cpp.hpp
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__rosidl_typesupport_fastrtps_cpp.hpp
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/dds_fastrtps
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.670s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.670s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface
+[4.670s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.670s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__type_support.c
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__rosidl_typesupport_introspection_c.h
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.c
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__rosidl_typesupport_introspection_c.h
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__type_support.c
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__rosidl_typesupport_introspection_c.h
+[4.670s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_introspection_c.so
+[4.671s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_introspection_c.so" to ""
+[4.671s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_c.so
+[4.671s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_c.so" to ""
+[4.671s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface
+[4.671s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg
+[4.671s] -- Up-to-date: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail
+[4.671s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__type_support.cpp
+[4.671s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/hand_touch__rosidl_typesupport_introspection_cpp.hpp
+[4.671s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__rosidl_typesupport_introspection_cpp.hpp
+[4.671s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__type_support.cpp
+[4.671s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_device__type_support.cpp
+[4.671s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/include/deeptouch_interface/deeptouch_interface/msg/detail/tele_opt_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.671s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_introspection_cpp.so
+[4.671s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[4.671s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_cpp.so
+[4.671s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_typesupport_cpp.so" to ""
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/environment/pythonpath.sh
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/environment/pythonpath.dsv
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface-0.0.0-py3.10.egg-info
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface-0.0.0-py3.10.egg-info/top_level.txt
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/libdeeptouch_interface__rosidl_generator_py.so
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.672s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/_deeptouch_interface_s.ep.rosidl_typesupport_c.c
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/__init__.py
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/_deeptouch_interface_s.ep.rosidl_typesupport_introspection_c.c
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/_hand_touch_s.c
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/_hand_touch.py
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/_tele_opt_cmd_s.c
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/_tele_opt_device_s.c
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/__init__.py
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/_tele_opt_cmd.py
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/_tele_opt_device.py
+[4.673s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/_deeptouch_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.702s] Listing '/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface'...
+[4.702s] Compiling '/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/__init__.py'...
+[4.702s] Listing '/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg'...
+[4.702s] Compiling '/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/__init__.py'...
+[4.702s] Compiling '/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/_hand_touch.py'...
+[4.702s] Compiling '/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/_tele_opt_cmd.py'...
+[4.702s] Compiling '/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/msg/_tele_opt_device.py'...
+[4.706s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.706s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.706s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.706s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.706s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.706s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/local/lib/python3.10/dist-packages/deeptouch_interface/deeptouch_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.706s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_generator_py.so
+[4.707s] -- Set runtime path of "/home/deeptouch/workspace/lixun/install/deeptouch_interface/lib/libdeeptouch_interface__rosidl_generator_py.so" to ""
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/msg/HandTouch.idl
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/msg/TeleOptCmd.idl
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/msg/TeleOptDevice.idl
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/msg/HandTouch.msg
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/msg/TeleOptCmd.msg
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/msg/TeleOptDevice.msg
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/ament_index/resource_index/package_run_dependencies/deeptouch_interface
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/ament_index/resource_index/parent_prefix_path/deeptouch_interface
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/environment/ament_prefix_path.sh
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/environment/ament_prefix_path.dsv
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/environment/path.sh
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/environment/path.dsv
+[4.707s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/local_setup.bash
+[4.708s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/local_setup.sh
+[4.708s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/local_setup.zsh
+[4.708s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/local_setup.dsv
+[4.708s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/package.dsv
+[4.708s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/ament_index/resource_index/packages/deeptouch_interface
+[4.708s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/export_deeptouch_interface__rosidl_generator_cExport.cmake
+[4.708s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/export_deeptouch_interface__rosidl_generator_cExport-noconfig.cmake
+[4.708s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/export_deeptouch_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[4.708s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/export_deeptouch_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/export_deeptouch_interface__rosidl_generator_cppExport.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/export_deeptouch_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/export_deeptouch_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interface__rosidl_typesupport_introspection_cExport.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interface__rosidl_typesupport_cExport.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interface__rosidl_typesupport_cExport-noconfig.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interface__rosidl_typesupport_introspection_cppExport.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interface__rosidl_typesupport_cppExport.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/export_deeptouch_interface__rosidl_generator_pyExport.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/export_deeptouch_interface__rosidl_generator_pyExport-noconfig.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/rosidl_cmake-extras.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.709s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.710s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interfaceConfig.cmake
+[4.710s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/cmake/deeptouch_interfaceConfig-version.cmake
+[4.710s] -- Installing: /home/deeptouch/workspace/lixun/install/deeptouch_interface/share/deeptouch_interface/package.xml
+[4.711s] Invoked command in '/home/deeptouch/workspace/lixun/build/deeptouch_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deeptouch/deeptouch/install/mnet_client:/opt/ros/humble /usr/bin/cmake --install /home/deeptouch/workspace/lixun/build/deeptouch_interface

@@ -1,0 +1,6 @@
+msg/HandTouch.idl
+msg/HandTouch.msg
+msg/TeleOptCmd.idl
+msg/TeleOptCmd.msg
+msg/TeleOptDevice.idl
+msg/TeleOptDevice.msg

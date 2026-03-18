@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/hand_touch__type_support_c.cpp.o"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/hand_touch__type_support_c.cpp.o.d"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_cmd__type_support_c.cpp.o"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_cmd__type_support_c.cpp.o.d"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_device__type_support_c.cpp.o"
+  "CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_device__type_support_c.cpp.o.d"
+  "libdeeptouch_interface__rosidl_typesupport_fastrtps_c.pdb"
+  "libdeeptouch_interface__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/hand_touch__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/hand_touch__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_cmd__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_cmd__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_device__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/deeptouch_interface/msg/detail/tele_opt_device__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/deeptouch_interface__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

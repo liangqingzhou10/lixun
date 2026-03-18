@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deeptouch_interface/msg/TeleOptDevice.msg
+// generated code does not contain a copyright notice
+
+#include "deeptouch_interface/msg/HandTouch.idl"
+#include "geometry_msgs/msg/Pose.idl"
+
+module deeptouch_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "VR完整数据帧消息定义" "\n"
+      "deeptouch_interface/TeleOptDevice.msg")
+    struct TeleOptDevice {
+      @verbatim (language="comment", text=
+        "时间戳")
+      float timestamp;
+
+      @verbatim (language="comment", text=
+        "帧序号")
+      uint32 frame_id;
+
+      @verbatim (language="comment", text=
+        "手柄状态")
+      deeptouch_interface::msg::HandTouch hand_touch;
+
+      @verbatim (language="comment", text=
+        "设备位姿")
+      geometry_msgs::msg::Pose hand_pose;
+
+      @verbatim (language="comment", text=
+        "头部位姿")
+      geometry_msgs::msg::Pose head_pose;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+{
+  "package_name": "deeptouch_interface",
+  "non_idl_tuples": [
+    "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_interface:msg/HandTouch.msg",
+    "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_interface:msg/TeleOptCmd.msg",
+    "/home/deeptouch/workspace/lixun/lixun/deeptouch/src/deeptouch_interface:msg/TeleOptDevice.msg"
+  ]
+}
